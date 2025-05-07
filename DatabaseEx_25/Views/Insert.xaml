@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DatabaseEx_25.Views.Insert"
+             Title="Insert">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label>Name</Label>
+            <Entry x:Name="NameInsert"  Placeholder="Name" />
+            <Label>Price</Label>
+            <Entry x:Name="PriceInsert" Placeholder="Price" />
+            <Label>CODE</Label>
+            <Entry x:Name="CodeInsert" Placeholder="CODE"></Entry>
+
+            <Button Clicked="Button_Clicked" Text="INSERT"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DatabaseEx_25.Views.Details"
+             Title="Details">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label x:Name="DetailsId">Loading...</Label>
+            <Label x:Name="DetailsProductName">Loading...</Label>
+            <Entry x:Name="NameUpdate"  Placeholder="Name" />
+            <Label x:Name="DetailsPrice">Loading...</Label>
+            <Entry x:Name="PriceUpdate" Placeholder="Price" />
+            <Label x:Name="DetailsCode">Loading...</Label>
+
+            <Button Clicked="Button_Clicked" Text="UPDATE"></Button>
+            <Button Clicked="Button_Clicked_1" Text="DELETE"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
