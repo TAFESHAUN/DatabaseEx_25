@@ -7,7 +7,7 @@ namespace DatabaseEx_25
 {
     public partial class MainPage : ContentPage
     {
-
+        //Set Up repo for SSMS local host DB
         private Repository _repo;
 
         ObservableCollection<Products> productL = new ObservableCollection<Products>();
